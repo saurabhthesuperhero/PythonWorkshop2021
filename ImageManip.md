@@ -117,13 +117,12 @@ im3.show()
 - SMOOTH_MORE
 
 #### Gray Image
-
+```python
 from PIL import Image,ImageEnhance
 import os
 #make grayscale/-b/w for all files at one click
 
-# print(os.listdir()) 
-```python
+print(os.listdir()) 
 for i in os.listdir('.'):# print(i)
 	try:
 		im2=Image.open(i).convert('RGB')
@@ -133,4 +132,3 @@ for i in os.listdir('.'):# print(i)
 	except:
 		pass
 ```
-
