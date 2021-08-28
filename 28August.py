@@ -72,8 +72,12 @@ print(dt)
 
 # pop 
 
-dt.pop("song")
-print(dt)
+# dt.pop("song")
+# print(dt)
+
+# #pop latest item
+# dt.popitem()
+# print(dt)
 
 # #Clear
 
@@ -85,3 +89,13 @@ print(dt)
 
 dt.update({"name":"Ed sheeran"})
 print(dt)
+
+## Keys and Values printing
+
+#Print keys
+
+print(dt.keys())
+
+#Print values
+
+print(dt.values())
